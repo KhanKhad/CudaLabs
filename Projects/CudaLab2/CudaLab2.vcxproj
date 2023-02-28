@@ -16,6 +16,9 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="File.cu" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{76410671-08C8-4A90-B788-BB03D8F7C27D}</ProjectGuid>
     <RootNamespace>CudaLab2</RootNamespace>

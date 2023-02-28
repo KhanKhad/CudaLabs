@@ -10,6 +10,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="File.cu" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{92B525C3-1CE4-4469-8695-FE66C403C8DB}</ProjectGuid>
     <RootNamespace>CudaLab3</RootNamespace>
