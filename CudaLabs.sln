@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{659ADA7C-7B0E-467A-B65E-4B06D217331E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaLab1", "Projects\CudaLab1\CudaLab1.vcxproj", "{C3334626-F425-434A-BC20-D24F0A1BC437}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaLab2", "Projects\CudaLab2\CudaLab2.vcxproj", "{76410671-08C8-4A90-B788-BB03D8F7C27D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaLab3", "Projects\CudaLab3\CudaLab3.vcxproj", "{92B525C3-1CE4-4469-8695-FE66C403C8DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3334626-F425-434A-BC20-D24F0A1BC437}.Debug|x64.ActiveCfg = Debug|x64
+		{C3334626-F425-434A-BC20-D24F0A1BC437}.Debug|x64.Build.0 = Debug|x64
+		{C3334626-F425-434A-BC20-D24F0A1BC437}.Release|x64.ActiveCfg = Release|x64
+		{C3334626-F425-434A-BC20-D24F0A1BC437}.Release|x64.Build.0 = Release|x64
+		{76410671-08C8-4A90-B788-BB03D8F7C27D}.Debug|x64.ActiveCfg = Debug|x64
+		{76410671-08C8-4A90-B788-BB03D8F7C27D}.Debug|x64.Build.0 = Debug|x64
+		{76410671-08C8-4A90-B788-BB03D8F7C27D}.Release|x64.ActiveCfg = Release|x64
+		{76410671-08C8-4A90-B788-BB03D8F7C27D}.Release|x64.Build.0 = Release|x64
+		{92B525C3-1CE4-4469-8695-FE66C403C8DB}.Debug|x64.ActiveCfg = Debug|x64
+		{92B525C3-1CE4-4469-8695-FE66C403C8DB}.Debug|x64.Build.0 = Debug|x64
+		{92B525C3-1CE4-4469-8695-FE66C403C8DB}.Release|x64.ActiveCfg = Release|x64
+		{92B525C3-1CE4-4469-8695-FE66C403C8DB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3334626-F425-434A-BC20-D24F0A1BC437} = {659ADA7C-7B0E-467A-B65E-4B06D217331E}
+		{76410671-08C8-4A90-B788-BB03D8F7C27D} = {659ADA7C-7B0E-467A-B65E-4B06D217331E}
+		{92B525C3-1CE4-4469-8695-FE66C403C8DB} = {659ADA7C-7B0E-467A-B65E-4B06D217331E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F17BF93-4822-4D78-A3B5-FD568AF08D68}
+	EndGlobalSection
+EndGlobal
