@@ -14,9 +14,6 @@
     <ClInclude Include="wb.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <CudaCompile Include="File.cu" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -1,6 +1,8 @@
 #include "wb.h"
-#include <cuda_runtime.h>
-#include <iostream>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+
+#include <stdio.h>
 
 __global__ void vecAdd(float* in1, float* in2, float* out, int len)
 {
@@ -10,7 +12,7 @@ __global__ void vecAdd(float* in1, float* in2, float* out, int len)
 		out[id] = in1[id] + in2[id];
 }
 
-int mainCuda(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	wbArg_t args;
 	int inputLength;
